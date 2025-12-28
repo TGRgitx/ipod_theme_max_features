@@ -121,7 +121,7 @@ fn main() -> anyhow::Result<()> {
             let mut out = Vec::new();
             mse.read_to_end(&mut out)?;
 
-            // For 36B10147, we don't make a patch(we can't confirm if this works) - just save it
+            // For 36B10147, we don't make a patch(Because at the moment it doesn't work for n6g) - just save it
             std::fs::write("./Firmware-36B10147.MSE", &out)?;
         }
 
@@ -181,7 +181,7 @@ fn main() -> anyhow::Result<()> {
     mse.write(&mut mse_out);
 
     // Disk swap
-    info!("Doing disk swap(skip)");
+    info!("Doing disk swap(will be skipped for nano 7)");
 
     if let Device::Nano6 = args.device {
         mse_out[0x5004..][..4].copy_from_slice(b"soso");
