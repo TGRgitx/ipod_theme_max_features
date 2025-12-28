@@ -207,11 +207,11 @@ Connect your iPod to your computer. Before flashing custom firmware, back up you
 
 On macOS, press `Command`+`Shift`+`.` to show hidden files. On Linux, press `Ctrl`+`H` (command may differ depending on distro) to show hidden files. On Windows, use View > Show > Hidden items to show hidden files. Make sure you can see the hidden `iPod_Control` folder which contains all your media, then copy everything from your iPod to a new folder on your computer.
 
-Select your iPod in the sidebar of Finder or iTunes. If you are running Linux, you can use a Windows virtual machine and connect your iPod to the virtual machine. Hold down the Option key (Mac), or Shift key (Windows) and click Check for Update, then choose the repacked custom ipsw firmware from step 6.
+Select your iPod in the sidebar of Finder or iTunes. If you are running Linux, you can use a Windows virtual machine and connect your iPod to the virtual machine. Hold down the Option key (Mac), or Shift key (Windows) and click Check for Update, then choose the repacked custom ipsw firmware from step 7.
 
 After your iPod finishes updating, you should see your custom artwork. To see your custom translations or hidden app labels, open Settings > General > Language > Select any language you have edited > Save.
 
-Note: When running custom themed firmware, iPod nano 6th generation may forget song ratings, playlist edits, or changed settings after reboot. To work around this, perform step 9, make your changes, then step 7 again. This doesn't affect iPod nano 7th generation.
+Note: When running custom themed firmware, iPod nano 6th generation may forget song ratings, playlist edits, or changed settings after reboot. To work around this, perform step 10, make your changes, then step 8 again. This doesn't affect iPod nano 7th generation.
 
 #### 9) If your iPod shows "OK to disconnect" in black and white(Only relevant for iPod nano 6 owners):
 If you restart your iPod, or if your iPod battery dies, it will boot into disk mode, showing "OK to disconnect" in black and white. This is expected for custom iPod nano firmware, because it relies on swapping regular OS and disk mode to work.
